@@ -1,0 +1,2 @@
+OPIS REPOZYTORIUM
+gdzie co jest
