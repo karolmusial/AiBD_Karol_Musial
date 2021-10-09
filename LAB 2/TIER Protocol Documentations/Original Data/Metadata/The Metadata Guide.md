@@ -11,8 +11,9 @@ Po tych kilku operacjach rozmiar bazy danych został zredukowany z ponad <b>110 
 
 ### W części podsumuwującej i wizualizującej strukturę, przedstawiono informację o danych oraz ich opis.
 
-Do analizy wyników wykorzystano pakiet <b>pyplot</b> z biblioteki <b>matplotlib</b>, w ten sposób stworzono dwa wykresy:
+Do analizy wyników wykorzystano pakiet <b>pyplot</b> z biblioteki <b>matplotlib</b>, w ten sposób stworzono trzy wykresy:
  - Pierwszy z nich, prezentujący liczbę zarażeń przypadającą na dany rok jasno pokazuje, że przez pierwsze 15 lat badań, gruźlica rozprzestrzeniała się dość wolno, ogromny skok nastąpił w roku 1995 i stopniowo zwiększał się przez następne lata aż do roku 2008 gdzie zakończono gromadzenie danych.
  - Drugi wykres opisuje liczbę zarażeń ze względu na przedział wiekowy. Najbardziej narażone na ryzyko zakażenia są osoby między 20 a 40 rokiem życia, czyli najczęściej pracujące i posiadające kontakt z wieloma ludźmi. Osoby starsze również wykazują skłonność do zarażenia, jednak dziwić może fakt, że wśród dzieci do 14 roku życia odnotowuje się małą ilość zarażeń.
+ - Trzeci, najmniej złożony wykres składa się z dwóch kolumn, liczy zarażeń u kobiet oraz u mężczyzn. Znacząco więcej takich przypadków występuję u płci męskiej, zakładając, że blisko 50% społeczeństwa (lub nawet mniej) to mężczyzni, można stwierdzić, iż są oni zdecydowanie bardziej narażeni na zarażenie.
 
 <b>Po zakończonej odbróbce i analizie, nowe, przetworzone dane zapisano do pliksu .csv</b>
