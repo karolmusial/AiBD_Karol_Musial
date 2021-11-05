@@ -1,0 +1,1 @@
+Wnioski i podsumowanie
