@@ -74,7 +74,6 @@ def film_in_category_case_insensitive(category:Union[int,str])->pd.DataFrame:
     else:
         return None
     return df
-    return None
     
 def film_cast(title:str)->pd.DataFrame:
     ''' Funkcja zwracająca wynik zapytania do bazy o obsadę filmu o dokładnie zadanym tytule.
@@ -130,4 +129,3 @@ def film_title_case_insensitive(words:list) :
 
     df = pd.read_sql("SELECT film.title FROM film WHERE film.title ~* '{a}' ORDER BY film.title".format(a=st), con=connection)
     return df
-
