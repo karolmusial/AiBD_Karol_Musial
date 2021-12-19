@@ -1,0 +1,12 @@
+zad1 - odczytać
+
+zad2 - SELECT "nyc_streets".name FROM "nyc_streets"
+WHERE "nyc_streets".name ~* '^[BQM].{1,}'
+
+zad3 - SELECT COUNT(popn_total) FROM "nyc_census_blocks"
+
+zad4 - SELECT boroname, COUNT(popn_total) FROM "nyc_census_blocks"
+GROUP BY boroname
+
+zad5 - SELECT boroname, COUNT(name) FROM "nyc_neighborhoods"
+GROUP BY boroname
