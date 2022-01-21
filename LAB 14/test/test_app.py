@@ -1,6 +1,7 @@
 from app import hello
 from app import extract_sentiment
 from app import text_contain_word
+from app import bubblesort
 import pytest
 
 
@@ -28,3 +29,13 @@ testdata2 = [
 def test_text_contain_word(sample, word, expected_output):
 
     assert text_contain_word(word, sample) == expected_output
+
+
+
+testdata3 = [([6, 1, 2, 3, 4, 5], [1, 2, 3, 4, 5, 6]),
+             ([6, 2, 5, 1, 2, 8, 4, 1], [1, 1, 2, 2, 4, 5, 6, 8])]
+
+@pytest.mark.parametrize('unsorted, sorted', testdata3)
+def test_bubblesort(unsorted, sorted):
+
+    assert bubblesort(unsorted) == sorted
